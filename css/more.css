@@ -1,0 +1,100 @@
+.more .more__my-profile,
+.more__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more__my-avatar {
+  border-radius: 50%;
+}
+
+.more__name-my,
+.more__status-text {
+  display: block;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.more__my-my,
+.more__my-icon {
+  border: 1px solid #e1e1e1;
+  padding: 3px 10px;
+  border-radius: 40%;
+  opacity: 0.7;
+}
+
+.vic__badge {
+  position: absolute;
+  top: 139px;
+  right: 15px;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  color: white;
+  background-color: orangered;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.more__my-profile {
+  padding-bottom: 10px;
+}
+
+.more__status-text {
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.more__pay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f4f4f4;
+}
+
+.more__pay-column {
+  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  padding: 7px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.more__pay-pay-left {
+  margin: 8px;
+  font-size: 16px;
+  border: 1px solid #e1e1e1;
+  background-color: #fdfdfd;
+  padding: 4px 7px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.more__etc-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.more__etc-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  font-size: 35px;
+  border-radius: 50px;
+  color: #050505;
+  cursor: pointer;
+}
+
+.more__etc-icon-name {
+  font-size: 15px;
+  opacity: 0.8;
+  cursor: pointer;
+}

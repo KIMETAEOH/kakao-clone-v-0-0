@@ -1,0 +1,34 @@
+.chats__list-chatroom {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+}
+
+.chats .chats__list-chatroom,
+.chats__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chats__friend-name,
+.chats__friend-bottom-text {
+  display: block;
+  padding-left: 15px;
+}
+
+.chats__timestamp {
+  justify-content: space-between;
+  padding-right: 5px;
+}
+
+.chats__room-avatar {
+  border-radius: 50%;
+}
+
+.chats__friend-bottom-text,
+.chats__timestamp {
+  padding-top: 5px;
+  font-size: 12px;
+  opacity: 0.7;
+}

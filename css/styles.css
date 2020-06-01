@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import "reset.css";
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+@import "chats.css";
+@import "friends.css";
+@import "game.css";
+@import "more.css";
+@import "setting.css";
+@import "chatroom.css";
+@import "screensize.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fcfcfc;
+  margin-bottom: 50px;
+  padding: 20px 20px;
+  color: #020202;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

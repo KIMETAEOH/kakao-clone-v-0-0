@@ -1,0 +1,46 @@
+.friend {
+  display: flex;
+  align-items: center;
+}
+
+.friends__avatar-items {
+  border-radius: 50%;
+}
+
+.friend__column {
+  padding-top: 12px;
+}
+
+.friend__column-sub {
+  padding-left: 15px;
+  padding-top: 5px;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.friend__status-text {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.friend__name {
+  display: block;
+  font-size: 16px;
+  padding-bottom: 2px;
+}
+
+.favorites__title {
+  border-top: 1px solid #fcfcfc;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.friends__title {
+  border-top: 1px solid #fcfcfc;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0.6;
+}

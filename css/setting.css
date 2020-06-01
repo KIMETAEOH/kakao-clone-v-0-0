@@ -1,0 +1,16 @@
+.setting__section {
+  border-top: 1px solid #f7f7f7;
+  margin-top: 40px;
+  margin-left: 14px;
+}
+
+.setting__icon,
+.setting__list {
+  font-size: 25px;
+  padding-top: 18px;
+  color: #495057;
+}
+
+.setting__list-items-text {
+  padding-left: 26px;
+}
